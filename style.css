@@ -1,0 +1,27 @@
+.card {
+    background-color: blue;
+    width: 300px;
+    border: 5px solid black;
+    margin: 0;
+}
+.column {
+    background-color:white;
+    width: 400px;
+    border: 5px solid black;
+    margin: 20px;    
+   
+}
+.column-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.board {
+    background-color: grey;
+    text-align: center;
+    padding: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+}
