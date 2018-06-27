@@ -85,6 +85,13 @@ document.addEventListener('DOMContentLoaded', function () {
             group: 'kanban',
             sort: true
         });
+       document.addEventListener('touchmove', function (event) {
+         console.log("help");
+         event.preventDefault();
+         }, {
+        passive: false
+       });
+
     }
 
     var board = {
