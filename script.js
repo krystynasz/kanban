@@ -42,8 +42,6 @@ document.addEventListener('DOMContentLoaded', function() {
       Column.prototype = {
         addCard: function(card) {
           this.element.querySelector('ul').appendChild(card.element);
-         initSortable(card.id); 
-          //console.log(card.id)
         },
         removeColumn: function() {
           this.element.parentNode.removeChild(this.element);
