@@ -122,10 +122,12 @@ document.addEventListener('DOMContentLoaded', function () {
     doingColumn.addCard(card2);
 
     
-    document.addEventListener('touchmove', function (event) {
+    
+    
+});
+
+document.addEventListener('touchmove', function (event) {
     event.preventDefault();
 }, {
     passive: false
-});
-    
 });
