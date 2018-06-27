@@ -126,7 +126,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
 });
 
-document.addEventListener('touchmove', function (event) {
+document.addEventListener('dragstart', function (event) {
     event.preventDefault();
 }, {
     passive: false
