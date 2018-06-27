@@ -121,4 +121,5 @@ document.addEventListener('DOMContentLoaded', function () {
     todoColumn.addCard(card1);
     doingColumn.addCard(card2);
 
+    document.addEventListener('touchmove', this._preventDefault, { passive: false });
 });
