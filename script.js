@@ -136,3 +136,8 @@ document.addEventListener('dragend', function (event) {
 }, {
     passive: false
 });
+document.addEventListener('touchmove', function (event) {
+    event.preventDefault();
+}, {
+    passive: false
+});
