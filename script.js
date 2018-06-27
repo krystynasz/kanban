@@ -126,20 +126,8 @@ document.addEventListener('DOMContentLoaded', function () {
     
 });
 
-document.addEventListener('dragstart', function (event) {
-    console.log("help1");
-    event.preventDefault();
-}, {
-    passive: false
-});
-document.addEventListener('dragend', function (event) {
-     console.log("help2");
-    event.preventDefault();
-}, {
-    passive: false
-});
 document.addEventListener('touchmove', function (event) {
-    console.log("help3");
+    console.log("help");
     event.preventDefault();
 }, {
     passive: false
