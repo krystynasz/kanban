@@ -131,3 +131,8 @@ document.addEventListener('dragstart', function (event) {
 }, {
     passive: false
 });
+document.addEventListener('dragend', function (event) {
+    event.preventDefault();
+}, {
+    passive: false
+});
