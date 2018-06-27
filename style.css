@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
 .card {
-    background-color: blue;
+    background-color:  #ffeaa7;
     width: 300px;
-    border: 5px solid black;
+    border: 2px solid black;
     margin: 0;
+    font-family: 'Permanent Marker', cursive;
+   
 }
 .column {
     background-color:white;
